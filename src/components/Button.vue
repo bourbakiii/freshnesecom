@@ -1,5 +1,5 @@
 <template>
-  <button class="button">
+  <button class="button text--button">
 
 <slot>Выполнить</slot>
   </button>
@@ -7,5 +7,11 @@
 
 
 <style lang="scss" scoped>
-
+.button{
+  background: white;
+  height: 56px;
+  border: 1px solid black;
+  padding: 0 48px;
+  border-radius: 12px;
+}
 </style>

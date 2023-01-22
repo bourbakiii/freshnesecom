@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+@function calc-em-by-body($value){
+  @return calc($value/14) + em;
+}
+
+html{
+  font-family: 'Open Sans', sans-serif;
+  @extend .text--body;
+}
+.text {
+  &--scale {
+    &_1, &_2, &_3, &_4, &_5, &_6 {
+      font-family: 'Poppins', sans-serif;
+      line-height: 150%;
+      font-weight: 600;
+    }
+
+    &_1 {
+      font-size: calc-em-by-body(32);
+      line-height: 140%;
+    }
+
+    &_2 {
+      font-size: calc-em-by-body(26);
+    }
+
+    &_3 {
+      font-size: calc-em-by-body(22);
+    }
+
+    &_4 {
+      font-size: calc-em-by-body(18);
+    }
+
+    &_5 {
+      font-weight: 500;
+      font-size: calc-em-by-body(15);
+    }
+
+    &_6 {
+      font-size: calc-em-by-body(12);
+    }
+  }
+
+  &--button {
+    font-weight: 700;
+    font-size: calc-em-by-body(15);
+  }
+
+  &--lead {
+    font-size: calc-em-by-body(17);
+  }
+
+  &--body {
+    font-size: 14px;
+  }
+
+  &--caption {
+    font-size: calc-em-by-body(12);
+  }
+}
+
