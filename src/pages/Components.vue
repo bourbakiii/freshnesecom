@@ -8,7 +8,8 @@
   <p class="text--scale_1">Scale 1</p>
   <p class="text--button">Button scale</p>
   <p class="text--lead">Lead scale</p>
-<p>Some body text</p>
+  <p class="text--body">Body scale</p>
+  <p class="text--caption">Caption scale</p>
   <hr/>
   <hr/>
   <hr/>
