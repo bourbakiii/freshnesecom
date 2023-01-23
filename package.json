@@ -11,7 +11,8 @@
   "dependencies": {
     "reset-css": "^5.0.1",
     "vue": "^3.2.45",
-    "vue-router": "^4.1.6"
+    "vue-router": "^4.1.6",
+    "vue-svg-sprite": "^2.2.1"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.0.0",

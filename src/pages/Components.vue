@@ -18,6 +18,8 @@
   <Button>Button</Button>
   <Button class="size--small">Button</Button>
   <hr>
+  <svg v-svg symbol="icon-1" size="24"></svg>
+
   <Button>Button</Button>
   <Button>Button</Button>
   <Button>Button</Button>
