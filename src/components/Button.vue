@@ -8,9 +8,20 @@
 <style lang="scss" scoped>
 .button{
   background: white;
-  height: 56px;
   border: 2px solid $color-2-c;
-  padding: 0 48px;
+  padding: 0 16px;
+  height: 48px;
   border-radius: 12px;
+
+  &.size{
+    &--big{
+      padding: 0 48px;
+      height: 56px;
+    }
+    &--small{
+      height: 36px;
+      padding: 0 12px;
+    }
+  }
 }
 </style>

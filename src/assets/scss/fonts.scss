@@ -4,43 +4,45 @@
 @function calc-em-by-body($value){
   @return calc($value/14) + em;
 }
-
+*{
+  color: $color-1-a;
+}
 html{
   font-family: 'Open Sans', sans-serif;
   @extend .text--body;
-  color: $color-1-a;
+
 }
 .text {
   &--scale {
-    &_1, &_2, &_3, &_4, &_5, &_6 {
+    &--1, &--2, &--3, &--4, &--5, &--6 {
       font-family: 'Poppins', sans-serif;
       line-height: 150%;
       font-weight: 600;
     }
 
-    &_1 {
+    &--1 {
       font-size: calc-em-by-body(32);
       line-height: 140%;
     }
 
-    &_2 {
+    &--2 {
       font-size: calc-em-by-body(26);
     }
 
-    &_3 {
+    &--3 {
       font-size: calc-em-by-body(22);
     }
 
-    &_4 {
+    &--4 {
       font-size: calc-em-by-body(18);
     }
 
-    &_5 {
+    &--5 {
       font-weight: 500;
       font-size: calc-em-by-body(15);
     }
 
-    &_6 {
+    &--6 {
       font-size: calc-em-by-body(12);
     }
   }

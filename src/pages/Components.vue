@@ -1,11 +1,11 @@
 <template>
-  <p class="text--scale_1">Scale 1</p>
-  <p class="text--scale_2">Scale 2</p>
-  <p class="text--scale_3">Scale 3</p>
-  <p class="text--scale_4">Scale 4</p>
-  <p class="text--scale_5">Scale 5</p>
-  <p class="text--scale_6">Scale 6</p>
-  <p class="text--scale_1">Scale 1</p>
+  <p class="text--scale--1">Scale 1</p>
+  <p class="text--scale--2">Scale 2</p>
+  <p class="text--scale--3">Scale 3</p>
+  <p class="text--scale--4">Scale 4</p>
+  <p class="text--scale--5">Scale 5</p>
+  <p class="text--scale--6">Scale 6</p>
+  <p class="text--scale--1">Scale 1</p>
   <p class="text--button">Button scale</p>
   <p class="text--lead">Lead scale</p>
   <p class="text--body">Body scale</p>
@@ -14,7 +14,13 @@
   <hr/>
   <hr/>
 
-  <Button></Button>
+  <Button class="size--big">Button</Button>
+  <Button>Button</Button>
+  <Button class="size--small">Button</Button>
+  <hr>
+  <Button>Button</Button>
+  <Button>Button</Button>
+  <Button>Button</Button>
 </template>
 
 <script setup>
