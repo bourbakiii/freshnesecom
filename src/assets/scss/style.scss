@@ -1,5 +1,7 @@
 @import 'variables', 'fonts';
-
+*{
+  box-sizing: border-box;
+}
 button, a {
   cursor: pointer;
   transition: $base-transition-time;

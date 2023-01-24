@@ -12,7 +12,7 @@
   border: 2px solid $color-2-c;
   padding: 0 16px;
   height: 48px;
-  border-radius: 12px;
+  border-radius: $border-radius;
   display: flex;
   align-items: center;
   justify-content: center;

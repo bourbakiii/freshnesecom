@@ -18,10 +18,13 @@
   <Button>Button</Button>
   <Button class="size--small">Button</Button>
   <hr>
+<Input type="number" label="Text Label"  placeholder="place place place" />
+
 </template>
 
 <script setup>
 import Button from "@/components/Button.vue";
+import Input from "@/components/Input.vue";
 </script>
 
 
