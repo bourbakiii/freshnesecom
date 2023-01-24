@@ -1,15 +1,10 @@
 @import 'variables', 'fonts';
-*{
+
+* {
   box-sizing: border-box;
 }
+
 button, a {
   cursor: pointer;
-  transition: $base-transition-time;
-  &:hover{
-    transform: scale(1.01);
-  }
-  &:active{
-    transition: 0.08s;
-    transform: scale(0.99);
-  }
+
 }

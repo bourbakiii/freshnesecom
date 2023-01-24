@@ -18,7 +18,9 @@
   <Button>Button</Button>
   <Button class="size--small">Button</Button>
   <hr>
-<Input type="number" label="Text Label"  placeholder="place place place" />
+  <Input type="text" label="Text Label" placeholder="place place place"/>
+  <Input reverse="true" type="email" label="Text Label" placeholder="place place place"/>
+  <Input type="number" label="Text Label" placeholder="place place place"/>
 
 </template>
 
